@@ -18,4 +18,8 @@ print(s)
 s = pd.Series([1,2,3], dtype=float)
 print(s)
 
+#apply方法
+s = pd.Series([1,2,3,4,5]).apply(lambda x: x * 2)
+print(s)
+
 
